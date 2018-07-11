@@ -12,8 +12,9 @@
 #
 # Note: this could probably run faster, but I just wanted to get it working.
 
-MALEPCPINDICATOR="Person - Male Democrat"
-FEMALEPCPINDICATOR="Person - Female Democrat"
+MALEPCPINDICATOR="Precinct Committee Person - Male"
+FEMALEPCPINDICATOR="Precinct Committee Person - Female"
+#Note: OCVR reports did not include nonbinary gender PCPs at the time this was written.
 PRECINCTINDICATOR="Precinct :,"
 
 MALESTRING="Male"
