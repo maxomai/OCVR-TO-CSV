@@ -3,10 +3,11 @@
 # OCVR-TO-CSV.bash
 # The purpose of this script is to parse an OCVR (Oregon Centralized Voter
 # Registration) system report, in TXT format, to a CSV. The CSV is printed to 
-# standard output. 
+# standard output. The user can then import the CSV to VAN, or read it using 
+# a standard spreadsheet program like LibreOffice Calc or Excel.
 #
 # Run as follows:
-#     OCVR-TO-CSV.bash (name of report) > (name of csv)
+#     OCVR-TO-CSV.bash < (name of report) > (name of csv)
 #
 # Copyright is at the end of the source file
 #
